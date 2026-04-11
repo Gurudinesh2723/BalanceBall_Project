@@ -8,6 +8,19 @@ The environment uses multiple agents trained in parallel to improve learning eff
 
 ---
 
+## 📸 Output / Demo
+
+### 🟢 Initial Setup
+![Initial Setup](images/image1.png)
+
+### 🔵 Multiple Agents Running
+![Agents Running](images/image2.png)
+
+### 🟡 Training / Gameplay View
+![Training View](images/image3.png)
+
+---
+
 ## 🎯 Objective
 - Balance the ball on the cube for as long as possible  
 - Prevent the ball from falling  
@@ -71,7 +84,7 @@ The PPO algorithm updates the policy to maximize cumulative reward over time.
 - Mean Reward Achieved: ~1.3 (increasing trend)  
 - Agent shows learning behavior and improving balance  
 
-Note: With extended training, performance can approach the benchmark (~100 reward).
+> With extended training, performance can approach the benchmark (~100 reward)
 
 ---
 
