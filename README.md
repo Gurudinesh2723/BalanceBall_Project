@@ -109,12 +109,6 @@ mlagents-learn config/ppo/3DBall.yaml --run-id=run1
 - After running training command, press ▶️ Play in Unity
 - Training will start automatically
 
-### 6️⃣ (Optional) View Training in TensorBoard
-tensorboard --logdir results
-
-Open in browser:
-http://localhost:6006
-
 ### ⚠️ Notes
 - Make sure Unity is open before starting training
 - Ensure config file exists at:
