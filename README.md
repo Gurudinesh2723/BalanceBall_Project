@@ -89,5 +89,33 @@ The PPO algorithm updates the policy to maximize cumulative reward over time.
 ## ▶️ How to Run
 
 ### 1️⃣ Activate Python Environment
-```bash
 mlagents-env310\Scripts\Activate.ps1
+
+### 2️⃣ Install ML-Agents (if not already installed)
+pip install mlagents
+
+### 3️⃣ Start Training
+mlagents-learn config/ppo/3DBall.yaml --run-id=run1
+
+### 4️⃣ Run Unity Environment
+- Open Unity Hub
+- Open this project (BalanceBall_Project)
+- Go to:
+  Assets → ML-Agents → Examples → 3DBall → Scenes
+- Open **3DBall** scene
+- Click ▶️ Play
+
+### 5️⃣ Connect Training with Unity
+- After running training command, press ▶️ Play in Unity
+- Training will start automatically
+
+### 6️⃣ (Optional) View Training in TensorBoard
+tensorboard --logdir results
+
+Open in browser:
+http://localhost:6006
+
+### ⚠️ Notes
+- Make sure Unity is open before starting training
+- Ensure config file exists at:
+  config/ppo/3DBall.yaml
