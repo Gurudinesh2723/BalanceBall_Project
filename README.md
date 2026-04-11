@@ -19,8 +19,6 @@ The environment uses multiple agents trained in parallel to improve learning eff
 ### 🟡 Training / Gameplay View
 ![Training View](images/image3.png)
 
----
-
 ## 🎯 Objective
 - Balance the ball on the cube for as long as possible  
 - Prevent the ball from falling  
