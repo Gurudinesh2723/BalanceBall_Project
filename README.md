@@ -177,9 +177,6 @@ Assets/
 ├── Scripts/
 ├── Prefabs/
 
-config/
-└── ppo/3DBall.yaml
-
 images/
 ├── image1.png
 ├── image2.png
