@@ -118,6 +118,10 @@ Step: 120000 → Mean Reward: 100.00
 Step: 180000 → Mean Reward: 100.00
 Step: 216000 → Mean Reward: 100.00
 ```
+### 📸 Training Output
+
+![Training Logs](images/image5.png)
+---
 
 ### 🧠 Interpretation
 
