@@ -164,15 +164,6 @@ mlagents-learn config/ppo/3DBall.yaml --run-id=finalRun
 
 ---
 
-## ⚠️ Notes
-
-* Ensure Unity is running before starting training
-* Make sure config file exists at:
-  `config/ppo/3DBall.yaml`
-* Use a new `run-id` for each training session
-
----
-
 ## 📁 Project Structure
 
 ```
